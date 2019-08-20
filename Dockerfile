@@ -1,5 +1,4 @@
-FROM arm32v7/alpine:edge
-COPY qemu-arm-static /usr/bin
+FROM alpine:edge
 
 RUN apk --no-cache add dnsmasq
 
